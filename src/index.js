@@ -15,6 +15,6 @@ module.exports = function getTimeForEducation(
         learnTime = 1500;
       }
     let result = learnTime / config[focus]; 
-      return result;
+      return Math.ceil(result);
   };
   
